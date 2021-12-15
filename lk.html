@@ -1,0 +1,17 @@
+<!-- Страница кабинета -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <meta charset="utf8"></meta>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="getData()">
+        Логин: <span id="login"></span> <br>
+        Email: <span id="email"></span> <br>
+        ФИО: <input placeholder="ФИО" id="fio"> <br>
+        Пароль: <input  placeholder="пароль" id="password"> 
+        <button onclick="fioPasswordSet()">Сохранить</button> <br>
+        <button onclick="document.location.href ='index.html'">Выход</button>
+    </body>
+</html>
